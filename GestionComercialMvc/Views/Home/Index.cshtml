@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Pagina Principal";
+}
+
+<div class="text-center py-5">
+    <h1 class="display-4 fw-bold mb-3">Sistema de Gestión Comercial Vs 5.2 </h1>
+    <p class="lead text-muted mb-4">
+        Bienvenido. Ejemplo sobre DB, utilziza los botones de arriba para fácil acceso y poder crear la información de cada dato solicitado.
+    </p>
+
+    <div class="d-flex justify-content-center gap-3 mt-4">
+        <a asp-controller="Categorias" asp-action="Index" class="btn btn-primary btn-lg">
+            Gestionar Categorías
+        </a>
+        <a asp-controller="Productos" asp-action="Index" class="btn btn-success btn-lg">
+            Gestionar Productos
+        </a>
+        <a asp-controller="Clientes" asp-action="Index" class="btn btn-outline-dark btn-lg">
+            Gestionar Clientes
+        </a>
+    </div>
+</div>
